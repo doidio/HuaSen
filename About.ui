@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>422</width>
+    <height>368</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About AccuImplant</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>5</y>
+     <width>406</width>
+     <height>226</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="3,2">
+    <item>
+     <widget class="QToolButton" name="toolButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton 
+{ 
+  border-radius: 0px; 
+  image: url(:/images/UEG_emblem.png);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="toolButton_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton 
+{ 
+  border-radius: 0px; 
+  image: url(:/images/SJTU_emblem.png);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>260</y>
+     <width>276</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(C) 2009 Shanghai UEG Software Co.Ltd, China
+Shanghai Jiao Tong University, China
+All rights reserved.
+
+Main contributor:
+Dr.Xiaojun Chen (xiaojunchen@sjtu.edu.cn)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_Version">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>235</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>AccuImplant 1.0</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="HuaSen.qrc"/>
+ </resources>
+ <connections/>
+</ui>
